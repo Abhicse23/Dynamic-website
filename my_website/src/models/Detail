@@ -1,0 +1,16 @@
+const mongoose=require("mongoose")
+const Detail=mongoose.Schema({
+    brandname:String,
+    brandIconUrl:String,
+    links:[
+        {          //array of links due to multiple array
+        label:String,
+        url:String,
+    },
+    ],
+});
+module.exports=mongoose.model("detail",Detail);  
+//collection name which is in mongodb and second is schema name 
+//you define a Mongoose schema named 
+//detailsSchema and then create a 
+//model named "details" based on that schema.

@@ -1,0 +1,44 @@
+.bg-green {
+     background-color: #4CAF50; /* Use your preferred shade of green */
+   }
+.slider-image{
+     height: 600px!important;
+     object-fit: cover;     
+}
+.right-content {
+     padding-top:360px; /* Adjust as needed */
+     padding-right: 20px; /* Adjust as needed */
+   }
+
+.first-heading {
+     font-size: 70px; 
+     color: #0e0d0de1; 
+     margin-top: 150px; 
+     margin-left: 150px; 
+ }
+ .second-heading {
+     font-size: 70px; 
+     color: #110f0fe2; 
+     margin-top: 20px; 
+     margin-left: 100px; 
+ }
+ .third-heading {
+     font-size: 70px; 
+     color: #150a0ada;
+     margin-top: 20px; 
+     margin-left: 110px; 
+ }
+ .fourth-heading {
+    
+     color: #150a0ada; 
+     margin-left: 170px; 
+ }
+ .fifth-heading {
+     
+     color: #150a0ada;
+     margin-top: 20px; 
+     margin-left: 500px; 
+ }
+ 
+
+ 
